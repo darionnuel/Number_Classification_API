@@ -52,7 +52,7 @@ Replace {number} with any valid integer.
 ### **✅ Example Request**
 
 ```sh
-GET http://localhost:3000/api/classify-number?number=153
+GET https://number-classification-api-pba7.onrender.com/api/classify-number?number=153
 ```
 
 ### **📥 Success Response(200 OK)**
@@ -82,7 +82,7 @@ GET http://localhost:3000/api/classify-number?number=153
 ## **🚀 Deployment**
 
 TODO
-The API is live at: 🔗 Number Classification API
+The API is live at: 🔗[Number_Classification_API](https://number-classification-api-pba7.onrender.com/api/classify-number?number=153)
 
 This API is deployed using Render.
 
@@ -101,8 +101,7 @@ number_classification_api/
 │ ├── classifyNumber.js # Express route handling
 │── middlewares/
 │ ├── validateInput.js # Middleware for validation
-│── public/
-│ ├── README.md
+│── README.md
 ```
 
 ---
